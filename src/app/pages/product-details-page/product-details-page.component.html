@@ -1,0 +1,60 @@
+  <!--<h1>
+  Ammar
+</h1>
+-->
+ <nav class="navbar left">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav navbar-right">
+      <li class="active"><a href="#" style="color:black">Manufacturer<span class="caret"></span></a>
+       <ul class="dropdown-menu">
+          <li><a href="#">Page 1-1</a></li>
+          <li><a href="#">Page 1-2</a></li>
+          <li><a href="#">Page 1-3</a></li>
+        </ul></li>
+      <li ><a href="#" style="color:black">Users<span class="caret"></span></a>
+       <ul class="dropdown-menu">
+          <li><a href="#" >Page 1-1</a></li>
+          <li><a href="#">Page 1-2</a></li>
+          <li><a href="#">Page 1-3</a></li>
+        </ul></li>
+      <li><a href="#" style="color:black">Products<span class="caret"></span></a><ul class="dropdown-menu">
+          <li><a href="#">Page 1-1</a></li>
+          <li><a href="#">Page 1-2</a></li>
+          <li><a href="#">Page 1-3</a></li>
+        </ul></li>
+      <li><a href="#" style="color:black">Feedback<span class="caret"></span></a><ul class="dropdown-menu">
+          <li><a href="#">Page 1-1</a></li>
+          <li><a href="#">Page 1-2</a></li>
+          <li><a href="#">Page 1-3</a></li>
+        </ul></li>
+      <li><a href="#" style="color:black">Logs<span class="caret"></span></a><ul class="dropdown-menu">
+          <li><a href="#">Page 1-1</a></li>
+          <li><a href="#">Page 1-2</a></li>
+          <li><a href="#">Page 1-3</a></li>
+        </ul></li>
+        <li><a href="#" style="color:red">Loged in as: Admin<span class="caret"></span></a></li>
+    </ul>
+  </div>
+</nav>
+<hr/>
+    <div class= "mainbody" *ngIf='post'>
+          <div class="navigation">
+           <a href="#" style="color:black" class="backtoproducts">Products</a> > Product X
+           </div>
+             <div class='col-md-6'>
+               {{post.productName}}
+            </div>
+         <div class="right-content">
+         </div>
+         <div class="footer">
+               <label class="switch">
+                     <input type="checkbox" />
+                     <div class="switch-btn"></div>
+               </label><br/>
+           <input type="submit" value="Validate"   class="btnvalidate"/>
+           <input type="submit" value="compare"   class="btncompare"/>
+           <input type="submit" value="choose"   class="btnchoose"/>
+               
+               
+         </div>
+    </div>   

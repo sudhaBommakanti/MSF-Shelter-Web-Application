@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src\\app",
+    "\\src\\app\\authentication",
+    "\\src\\app\\authentication\\login-page",
+    "\\src\\app\\pages",
+    "\\src\\app\\pages\\product-details-page",
+    "\\src\\app\\pages\\product-page",
+    "\\src\\app\\routes",
+    "\\src\\app\\services"
+  ],
+  "SelectedNode": "\\.gitignore",
+  "PreviewInSolutionExplorer": false
+}

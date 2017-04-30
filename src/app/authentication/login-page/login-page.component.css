@@ -1,0 +1,96 @@
+﻿h1 {
+    left: 20;
+    line-height: 100px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+}
+.userImage {
+    position: absolute;
+    top:50%;
+    left: 35%;
+    margin-right: -60%;
+    margin:0;
+}
+.manufacturerImage {
+    position: absolute;
+    top:51.5%;
+    left: 55%;
+    margin-right: -60%;
+    margin:0;
+}
+.userButton {
+    position: absolute;
+    top:70%;
+    left: 34%;
+    margin-right: -60%;
+    margin:0;
+    background-color:#e01819;
+    color: #fff ;
+   float: right;
+    width:150px;
+    height:35px;
+}
+.manufacturerButton {
+    position: absolute;
+    top:70%;
+    left:  54%;
+    margin-right: -60%;
+    margin:0;
+    background-color:#e01819;
+    color: #fff ;
+    width:150px;
+    height:35px;
+    cursor: pointer;
+    float: right;
+}
+h1 {
+    left: 20;
+    line-height: 100px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+}
+.userImage {
+    position: absolute;
+    top:50%;
+    left: 35%;
+    margin-right: -60%;
+    margin:0;
+}
+.manufacturerImage {
+    position: absolute;
+    top:51.5%;
+    left: 55%;
+    margin-right: -60%;
+    margin:0;
+}
+.userButton {
+    position: absolute;
+    top:70%;
+    left: 34%;
+    margin-right: -60%;
+    margin:0;
+    background-color: red;
+    color: #FFFFFF;
+   float: right;
+    width:150px;
+    height:35px;
+}
+.manufacturerButton {
+    position: absolute;
+    top:70%;
+    left:  54%;
+    margin-right: -60%;
+    margin:0;
+    background-color: red;
+    color: #FFFFFF;
+    width:150px;
+    height:35px;
+    cursor: pointer;
+    float: right;
+}
